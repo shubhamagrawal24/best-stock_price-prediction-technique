@@ -1,0 +1,9 @@
+{
+    "path" : "~/StockPredictionTechnique",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
