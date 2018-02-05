@@ -2,9 +2,9 @@ tryCatch({
 	
 	input_data <- function(stockVector){
 		
-		stockVector[[1]] = read.table(paste(getwd(), "/input/ACN.csv", sep = ""), sep=",", header=TRUE)
+		stockVector[[1]] = read.table(paste(getwd(), "/input/IBM.csv", sep = ""), sep=",", header=TRUE)
 		
-		stockVector[[2]] = read.table(paste(getwd(), "/input/IBM.csv", sep = ""), sep=",", header=TRUE)
+		stockVector[[2]] = read.table(paste(getwd(), "/input/ACN.csv", sep = ""), sep=",", header=TRUE)
 		
 		stockVector[[3]] = read.table(paste(getwd(), "/input/LPL.csv", sep = ""), sep=",", header=TRUE)
 		

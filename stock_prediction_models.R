@@ -2,7 +2,6 @@ source("best_model.R")
 source("input_data.R")
 
 library(forecast)
-library(fpp)
 
 stockVector = list()
 
